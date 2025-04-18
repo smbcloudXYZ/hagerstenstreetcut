@@ -7,8 +7,8 @@ import { sampleProductsReviews } from "@/lib/sample-data";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Review summary",
-  description: "AI summaries of customer reviews",
+  title: "Hagersten Street Cut Review summary",
+  description: "Summaries of customer reviews",
 };
 
 export default function RootLayout({

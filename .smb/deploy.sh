@@ -15,6 +15,6 @@ cd $1
 
 source ~/.profile
 nvm use
-pm2 restart 0 --update-env > /dev/null 2>&1 &
+pm2 restart 1 --update-env
 
 echo "------------------------  DEPLOYED  ------------------------"

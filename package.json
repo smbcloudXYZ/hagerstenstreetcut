@@ -1,11 +1,11 @@
 {
-  "name": "review-summary",
+  "name": "hagerstenstreetcut",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --port 3011",
     "lint": "next lint"
   },
   "dependencies": {

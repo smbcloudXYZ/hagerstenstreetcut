@@ -18,7 +18,7 @@ export async function AIReviewSummary({ product }: { product: Product }) {
     <Card className="w-full max-w-prose p-10 grid gap-10">
       <CardHeader className="items-center space-y-0 gap-4 p-0">
         <div className="grid gap-1 text-center">
-          <CardTitle className="text-lg">AI Summary</CardTitle>
+          <CardTitle className="text-lg">Review Summary</CardTitle>
           <CardDescription className="text-xs">
             Based on {product.reviews.length} customer ratings
           </CardDescription>

@@ -14,7 +14,9 @@ fi
 cd $1
 
 source ~/.profile
+echo "Setup Node.js"
 nvm use
-pm2 restart 1 --update-env
+echo "Start Hagersten Streetcut"
+pm2 start "pnpm start-hagerstenstreetcut"
 
 echo "------------------------  DEPLOYED  ------------------------"

@@ -40,6 +40,7 @@ jobs:
           rsync -a node_modules ${{ env.GIT_USER }}@${{ env.GIT_HOST }}:apps/ssr/hagerstenstreetcut/
           rsync -a .next ${{ env.GIT_USER }}@${{ env.GIT_HOST }}:apps/ssr/hagerstenstreetcut/
           rsync -a public ${{ env.GIT_USER }}@${{ env.GIT_HOST }}:apps/ssr/hagerstenstreetcut/
+          rsync next.config.mjs ${{ env.GIT_USER }}@${{ env.GIT_HOST }}:apps/ssr/hagerstenstreetcut/
           rsync package.json ${{ env.GIT_USER }}@${{ env.GIT_HOST }}:apps/ssr/hagerstenstreetcut/
           rsync pnpm-lock.yaml ${{ env.GIT_USER }}@${{ env.GIT_HOST }}:apps/ssr/hagerstenstreetcut/
           rsync .nvmrc ${{ env.GIT_USER }}@${{ env.GIT_HOST }}:apps/ssr/hagerstenstreetcut/

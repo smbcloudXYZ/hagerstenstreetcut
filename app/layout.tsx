@@ -21,15 +21,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <nav className="flex justify-around py-4 border-b mb-8">
-          {Object.keys(products).map((productId) => (
-            <Link
-              key={productId}
+          <Link
+              key={products["mower"].name}
               className="text-lg font-semibold"
-              href={`/${productId}`}
+              href={`/`}
             >
-              {products[productId].name}
+              {products["mower"].name}
             </Link>
-          ))}
         </nav>
         <p className="text-center text-gray-500 mb-8">
           This is a demo of AI-generated summaries of customer reviews. To learn

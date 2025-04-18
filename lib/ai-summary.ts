@@ -58,10 +58,10 @@ ${product.reviews
   } as const;
 
   return unstable_cache(async () => {
-    const response = await perplexity.chat.completions.create(query);
+    //const response = await perplexity.chat.completions.create(query);
 
     // Convert the response into a friendly text-stream
-    const stream = OpenAIStream(response);
+    const stream = OpenAIStream(new Response());
 
     // Respond with the stream
     const streamingResponse = new StreamingTextResponse(stream);

@@ -29,45 +29,10 @@ export const sampleProductsReviews: Record<string, Product> = {
       },
       {
         review:
-          "Hagersten Street Cut promises a lot but delivers just enough. It's great on flat surfaces but struggles a bit on my sloped edges. The noise level is as advertised—very quiet. The boundary wire setup took some time, but it's working fine. A decent purchase.",
-        authorName: "Chris T.",
-        date: "2024-02-10",
-        stars: 3,
-      },
-      {
-        review:
           "I had high hopes for the Hagersten Street Cut, but it's been a mixed bag. The setup was more complicated than expected, and it occasionally misses spots on the lawn. It's quiet and the safety features are reassuring, but I expected more precision for the price.",
         authorName: "Alexa R.",
         date: "2023-12-20",
         stars: 3,
-      },
-      {
-        review:
-          "The Hagersten Street Cut's streak-free technology is not as flawless as advertised. My lawn looks mostly good, but there are areas where it seems to have missed or cut unevenly. The app and setup are user-friendly, but I'm a bit disappointed in the overall performance.",
-        authorName: "Derek S.",
-        date: "2024-01-05",
-        stars: 3,
-      },
-      {
-        review:
-          "Not impressed with the Hagersten Street Cut. It's supposed to navigate narrow spaces, yet it's gotten stuck multiple times in areas of my yard that aren't that complicated. The noise level is fine, but what's the use if it can't do its primary job right?",
-        authorName: "Patricia N.",
-        date: "2024-02-03",
-        stars: 2,
-      },
-      {
-        review:
-          "Disappointed with the Hagersten Street Cut. It struggles with slopes and often leaves uneven cuts. The boundary wire installation was a hassle, and the Bluetooth connectivity is hit or miss. Expected more from such an expensive gadget.",
-        authorName: "Ron J.",
-        date: "2023-11-15",
-        stars: 2,
-      },
-      {
-        review:
-          "Frustrated with the Hagersten Street Cut. It frequently loses its boundary wire signal and ends up mowing outside its zone, causing a mess. The concept is great, but the execution is lacking. Plus, customer service hasn't been very helpful in resolving my issues.",
-        authorName: "Simone K.",
-        date: "2024-01-22",
-        stars: 1,
       },
       {
         review:

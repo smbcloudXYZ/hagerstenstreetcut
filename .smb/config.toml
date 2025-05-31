@@ -1,4 +1,10 @@
-name = 'Hagersten Street Cut'
+name = "hagerstenstreetcut"
+description = "hejhejhej"
 
-[repository]
-name = 'hagerstenstreetcut'
+[project]
+id = 2
+name = "hagerstenstreetcut"
+repository = "hagerstenstreetcut"
+description = "hejhejhej"
+created_at = "2025-05-29T16:10:57.481Z"
+updated_at = "2025-05-29T16:10:57.481Z"

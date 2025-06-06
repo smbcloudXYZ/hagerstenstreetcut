@@ -41,6 +41,9 @@ export default function RootLayout({
           </Link>
           .{"\n          "}
         </p>
+        <p className="text-center text-gray-500 mb-8">
+          Text to book +47 6494 0131
+        </p>
         <main className="pt-6">{children}</main>
       </body>
     </html>

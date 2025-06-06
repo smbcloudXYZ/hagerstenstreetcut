@@ -15,38 +15,31 @@ export const sampleProductsReviews: Record<string, Product> = {
     reviews: [
       {
         review:
-          "Absolutely love the Hagersten Street Cut! Installation was a breeze, thanks to the clear instructions and videos. It navigates my complex yard with ease, even the steep parts. Plus, it's so quiet, I barely notice it's working. Truly a game-changer for lawn care.",
-        authorName: "Jake P.",
-        date: "2024-02-15",
+          "Fantastic barber! Got a sharp haircut and beard trim. The staff are friendly and really listen to what you want. The shop is clean and has a great vibe. Highly recommend if you're in Hagersten.",
+        authorName: "Erik S.",
+        date: "2024-05-15",
         stars: 5,
       },
       {
         review:
-          "The Hagersten Street Cut has been a solid addition to my garden tools. It handles the lawn autonomously, freeing up my weekends. The app control is intuitive, though I wish the Bluetooth range was better. Overall, a reliable lawn mower that does its job well.",
-        authorName: "Marianne L.",
-        date: "2024-01-28",
+          "Very professional service and attention to detail. I appreciated the advice on styling and products. Will definitely come back next month.",
+        authorName: "Anna L.",
+        date: "2024-04-28",
+        stars: 5,
+      },
+      {
+        review:
+          "Walked in without an appointment and was seen quickly. The barber was skilled and friendly. Prices are reasonable for Stockholm. Great local spot!",
+        authorName: "Jonas M.",
+        date: "2025-04-10",
         stars: 4,
       },
       {
         review:
-          "I had high hopes for the Hagersten Street Cut, but it's been a mixed bag. The setup was more complicated than expected, and it occasionally misses spots on the lawn. It's quiet and the safety features are reassuring, but I expected more precision for the price.",
-        authorName: "Alexa R.",
-        date: "2023-12-20",
-        stars: 3,
-      },
-      {
-        review:
-          "The Hagersten Street Cut is decent. It mows the lawn autonomously, which is convenient. However, the setup took some effort, and the app could be more stable. It's nice to have, but I'm not sure it's worth the investment for smaller yards.",
-        authorName: "Gary W.",
-        date: "2024-02-05",
-        stars: 3,
-      },
-      {
-        review:
-          "Overall, the Hagersten Street Cut is a good buy. It handles most of my lawn well, including the slope. The silent operation is a huge plus. Just wish the battery life was longer, as it doesn't always finish in one go. Still, it's much better than manual mowing.",
-        authorName: "Bethany E.",
-        date: "2024-01-19",
-        stars: 4,
+          "My son and I both got haircuts here. The barber was patient and did a great job with my son's hair. Convenient location in Hagersten.",
+        authorName: "Maria P.",
+        date: "2025-03-20",
+        stars: 5,
       },
     ],
   },

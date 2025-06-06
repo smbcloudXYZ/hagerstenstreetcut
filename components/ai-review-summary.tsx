@@ -28,6 +28,14 @@ export async function AIReviewSummary({ product }: { product: Product }) {
           <span className="text-sm ml-4 text-gray-500 dark:text-gray-400">
             {numberWithOneDecimal(averageRating)} out of 5
           </span>
+          <a
+            href="https://maps.app.goo.gl/f4irVqGC9KGHzRDP9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-6 underline text-xs text-blue-600"
+          >
+            Google page
+          </a>
         </div>
       </CardHeader>
       <CardContent className="p-0 grid gap-4">

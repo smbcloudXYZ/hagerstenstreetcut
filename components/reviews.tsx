@@ -1,14 +1,17 @@
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar";
 import { Product, Review as ReviewType } from "@/lib/types";
-import ms from "ms";
 import { FiveStarRating } from "./five-star-rating";
 import { AIReviewSummary } from "./ai-review-summary";
 
 export async function Reviews({ product }: { product: Product }) {
+  // Sort reviews by date descending (newest first)
+  const sortedReviews = [...product.reviews].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
   return (
     <div className="mx-auto px-4 md:px-6 max-w-2xl grid gap-12">
       <AIReviewSummary product={product} />
-      {product.reviews.map((review) => (
+      {sortedReviews.map((review) => (
         <div key={review.review}>
           <Review key={review.review} review={review} />
         </div>
@@ -52,10 +55,24 @@ export function Review({ review }: { review: ReviewType }) {
  * You probably want to wrap the parent element of this component with `suppressHydrationWarning`
  */
 const timeAgo = (date: Date, suffix = true) => {
-  if (Date.now() - date.getTime() < 1000) {
-    return "Just now";
-  }
-  return `${ms(Date.now() - date.getTime(), { long: true })}${
-    suffix ? " ago" : ""
-  }`;
+  const now = new Date();
+  const seconds = Math.floor((now.getTime() - date.getTime()) / 1000);
+
+  if (seconds < 60) return "Just now";
+  const minutes = Math.floor(seconds / 60);
+  if (minutes < 60)
+    return `${minutes} minute${
+      minutes !== 1 ? "s" : ""
+    }${suffix ? " ago" : ""}`;
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24)
+    return `${hours} hour${hours !== 1 ? "s" : ""}${suffix ? " ago" : ""}`;
+  const days = Math.floor(hours / 24);
+  if (days < 30)
+    return `${days} day${days !== 1 ? "s" : ""}${suffix ? " ago" : ""}`;
+  const months = Math.floor(days / 30);
+  if (months < 12)
+    return `${months} month${months !== 1 ? "s" : ""}${suffix ? " ago" : ""}`;
+  const years = Math.floor(months / 12);
+  return `${years} year${years !== 1 ? "s" : ""}${suffix ? " ago" : ""}`;
 };

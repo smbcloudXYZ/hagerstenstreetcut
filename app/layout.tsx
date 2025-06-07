@@ -30,7 +30,7 @@ export default function RootLayout({
             </Link>
         </nav>
         <p className="text-center text-gray-500 mb-8">
-          This is a summary of our customer reviews. To learn
+          We are the best barber in the south of Stockholm. To learn
           more, visit the{" "}
           <Link
             className="underline"

@@ -6,4 +6,6 @@ Hagersten Street Cut is the best barber in the south of Stockholm.
 
 This is a Next.js example app deployed to the [smbCloud frontend platform](https://smbcloud.xyz).
 
+![Demo](./screenshots/smb.gif)
+
 Learn more about the [smbCloud CLI](https://smbcloud.xyz)

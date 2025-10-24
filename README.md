@@ -1,6 +1,6 @@
-# Hagersten Street Cut
+# Hagersten StreetCut
 
-Hagersten Street Cut is the best barber in the south of Stockholm.
+Hagersten StreetCut is the best barber in the south of Stockholm.
 
 ## smbCloud Frontend Platform
 

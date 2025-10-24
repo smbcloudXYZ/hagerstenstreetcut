@@ -11,7 +11,7 @@ export async function getProduct(id: string) {
 
 export const sampleProductsReviews: Record<string, Product> = {
   mower: {
-    name: "Hagersten Street Cut",
+    name: "Hagersten StreetCut",
     reviews: [
       {
         review:

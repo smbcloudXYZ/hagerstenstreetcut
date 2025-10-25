@@ -94,9 +94,10 @@ export default function TermsOfUse() {
             7. Disclaimer of Warranties
           </h2>
           <p>
-            This website is provided "as is" without any warranties, express or
-            implied. We do not warrant that the website will be uninterrupted,
-            error-free, or free of viruses or other harmful components.
+            This website is provided &quot;as is&quot; without any warranties,
+            express or implied. We do not warrant that the website will be
+            uninterrupted, error-free, or free of viruses or other harmful
+            components.
           </p>
         </section>
 

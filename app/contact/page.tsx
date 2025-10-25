@@ -9,8 +9,9 @@ export default function Contact() {
             Get in Touch
           </h2>
           <p className="text-gray-700 mb-4">
-            We'd love to hear from you! Whether you want to book an appointment
-            or have questions about our services, feel free to reach out.
+            We&apos;d love to hear from you! Whether you want to book an
+            appointment or have questions about our services, feel free to reach
+            out.
           </p>
         </section>
 
@@ -32,7 +33,7 @@ export default function Contact() {
                 </a>
                 <p className="text-sm text-gray-500 mt-2">
                   Send us a text message with your preferred date and time, and
-                  we'll confirm your appointment.
+                  we&apos;ll confirm your appointment.
                 </p>
               </div>
             </div>
@@ -105,8 +106,8 @@ export default function Contact() {
             >
               +46 72-853 82 88
             </a>{" "}
-            and let us know when you'd like to visit. We'll get back to you as
-            soon as possible!
+            and let us know when you&apos;d like to visit. We&apos;ll get back
+            to you as soon as possible!
           </p>
         </section>
       </div>
